@@ -1,5 +1,5 @@
 # Grafana for All
-Grafana Dashboard using metrics from: Prometheus, Tuya Exporter, Infinity, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
+Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
 
 ![image](https://github.com/luizbizzio/Grafana-for-all/assets/73234672/ff767a86-b51c-4cbd-a68c-649ed24c0572)
 
