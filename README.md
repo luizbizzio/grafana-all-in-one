@@ -7,15 +7,15 @@ Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promda
 
 ### Grafana
 * [Download page](https://grafana.com/grafana/download) (Used 9.5.2)
-* [Docs](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
+* See [docs](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 
 ### Prometheus
 * [Download page](https://prometheus.io/download/) (Used 2.44.0)
-* [Docs](https://prometheus.io/docs/prometheus/latest/getting_started/)
+* See [docs](https://prometheus.io/docs/prometheus/latest/getting_started/)
 
 ### GO
 * [Download page](https://go.dev/dl/) (Used 1.20.4)\
-Note: _Only to build exporters, then can you uninstall_
+Note: _Only to build exporters, then can you uninstall._
 
 ### HWiNFO
 * [Download page](https://www.hwinfo.com/download/) \
@@ -27,24 +27,50 @@ Note: _Only to build exporters, then can you uninstall_
 "Auto Start"
 
 ### Tuya Exporter
-[here is excellent guide](https://github.com/codetheweb/tuyapi/blob/master/docs/SETUP.md) by @codetheweb
 ```
 git clone https://github.com/rkosegi/tuya-smartplug-exporter
 cd tuya-smartplug-exporter
 ```
-add your device info in ./config.yaml
+Add your [device info](https://github.com/iRayanKhan/homebridge-tuya/wiki/Get-Local-Keys-for-your-devices) in "config.yaml" then
 ```
 go build
 ```
-Tutorial to get device info: https://github.com/iRayanKhan/homebridge-tuya/wiki/Get-Local-Keys-for-your-devices \
-localhost:9999/metrics
+Run "tuya-smartplug-exporter"
+
+http://localhost:9999/metrics
 
 ### PromDapter
-* Repository: https://github.com/kallex/PromDapter \
-Default Port: 10445 
+* [Download page](https://github.com/kallex/PromDapter/releases) \
+Run "PromDapter-setup" and Install. \
+Go to PromDapter path and execute.
+
+http://localhost:10445/metrics
 
 ### Windows Exporter
+* [Download page](https://github.com/prometheus-community/windows_exporter/releases) \
+Run "windows_exporter"
+
+http://localhost:9182/metrics
+
 ### Solis Inverter JSON API
+```
+git clone ttps://github.com/fss/solis-inverter
+cd solis-inverter
+npm install
+```
+Open "index.js" and paste it on the first line
+```
+const port = 8686
+const address = "192.168.1.86"
+const username = "admin"
+const password = "admin"
+```
+Replace using your info and run
+```
+node index.js
+```
+http://localhost:8686/metrics
+
 ### Node Exporter
 
 
