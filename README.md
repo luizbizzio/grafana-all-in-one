@@ -6,12 +6,13 @@ Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promda
 ## Setup
 
 ### Grafana
+
 * [Download page](https://grafana.com/grafana/download) (Used 9.5.2)
-* See [docs](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
+* [See docs](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 
 ### Prometheus
 * [Download page](https://prometheus.io/download/) (Used 2.44.0)
-* See [docs](https://prometheus.io/docs/prometheus/latest/getting_started/)
+* [See docs](https://prometheus.io/docs/prometheus/latest/getting_started/)
 
 ### GO
 * [Download page](https://go.dev/dl/) (Used 1.20.4)\
@@ -20,10 +21,10 @@ Note: _Only to build exporters, then can you uninstall._
 ### HWiNFO
 * [Download page](https://www.hwinfo.com/download/) \
 **You will need to enable:** \
-"Show Sensors on Startup" \ 
-"Minimize Main Window on Startup" \
-"Minimize Sensors on Startup" \ 
-"Minimize Sensors Instead of Closing" \ 
+"Show Sensors on Startup" / 
+"Minimize Main Window on Startup" /
+"Minimize Sensors on Startup" / 
+"Minimize Sensors Instead of Closing" / 
 "Auto Start"
 
 ### Tuya Exporter
@@ -42,7 +43,7 @@ http://localhost:9999/metrics
 ### PromDapter
 * [Download page](https://github.com/kallex/PromDapter/releases) \
 Run "PromDapter-setup" and Install. \
-Go to PromDapter path and execute.
+Go to PromDapter path and run the program.
 
 http://localhost:10445/metrics
 
@@ -58,22 +59,27 @@ git clone ttps://github.com/fss/solis-inverter
 cd solis-inverter
 npm install
 ```
-Open "index.js" and paste it on the first line
+Open "index.js" and paste it on the first line:
 ```
 const port = 8686
 const address = "192.168.1.86"
 const username = "admin"
 const password = "admin"
 ```
-Replace using your info and run
+Replace using your info and run:
 ```
 node index.js
 ```
 http://localhost:8686/metrics
 
 ### Node Exporter
-
-
+```
+git clone https://github.com/prometheus/node_exporter
+cd node_exporter
+go build
+```
+Run "node_exporter"
+http://localhost:9100/metrics
 
 ## Docs
 You can find useful information about several components and answers to frequently asked questions in each repository. If you think that there is something missing, you are invited to submit a pull request to the grafana-for-all repository.
