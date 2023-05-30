@@ -1,6 +1,7 @@
 # Grafana for All
 Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
 
+## Dashboard
 ![image](dashboard.png)
 
 ## Docs
