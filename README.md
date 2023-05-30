@@ -78,7 +78,7 @@ git clone https://github.com/prometheus/node_exporter
 cd node_exporter
 go build
 ```
-Run "node_exporter"
+Run "node_exporter" \
 http://localhost:9100/metrics
 
 ## Docs
