@@ -1,5 +1,5 @@
 # Grafana for All
-Grafana Dashboard using metrics from: Prometheus data source, Tuya Exporter, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
+Grafana Dashboard using metrics from: Prometheus, Tuya Exporter, Infinity, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
 
 Grafana Version: 9.5.2 Enterprise
 
@@ -8,6 +8,9 @@ Grafana Version: 9.5.2 Enterprise
 
 Prometheus: (Data Source)
 https://github.com/prometheus/prometheus
+
+Inifinity: (Data Source)
+https://github.com/yesoreyeram/grafana-infinity-datasource
 
 Tuya Exporter: (Smart Plug)
 https://github.com/rkosegi/tuya-smartplug-exporter
