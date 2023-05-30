@@ -6,27 +6,33 @@ Grafana Dashboard using metrics from: Prometheus, Tuya Exporter, Infinity, Promd
 ## Setup
 
 ### Grafana
-* Download page: https://grafana.com/grafana/download (Used 9.5.2)
-* Docs: https://grafana.com/docs/grafana/latest/setup-grafana/installation/
+* [Download page](https://grafana.com/grafana/download) (Used 9.5.2)
+* [Docs](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 
-### Prometheus 
-* Download page: https://prometheus.io/download/ (Used 2.44.0)
+### Prometheus
+* [Download page](https://prometheus.io/download/) (Used 2.44.0)
+* [Docs](https://prometheus.io/docs/prometheus/latest/getting_started/)
 
 ### GO
-* Download page: https://go.dev/dl/ (Used 1.20.4)\
-Only to build exporter, then can uninstall
+* [Download page](https://go.dev/dl/) (Used 1.20.4)\
+Note: _Only to build exporters, then can you uninstall_
 
 ### HWiNFO
-* Download page: https://www.hwinfo.com/download/ \
-You will need to enable: \
-"Show Sensors on Startup", "Minimize Main Window on Startup", "Minimize Sensors on Startup", "Minimize Sensors Instead of Closing" and "Auto Start"
+* [Download page](https://www.hwinfo.com/download/) \
+**You will need to enable:** \
+"Show Sensors on Startup" \ 
+"Minimize Main Window on Startup" \
+"Minimize Sensors on Startup" \ 
+"Minimize Sensors Instead of Closing" \ 
+"Auto Start"
 
 ### Tuya Exporter
+[here is excellent guide](https://github.com/codetheweb/tuyapi/blob/master/docs/SETUP.md) by @codetheweb
 ```
 git clone https://github.com/rkosegi/tuya-smartplug-exporter
 cd tuya-smartplug-exporter
 ```
-Add your device info in ./config.yaml
+add your device info in ./config.yaml
 ```
 go build
 ```
