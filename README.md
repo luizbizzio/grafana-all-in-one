@@ -1,31 +1,73 @@
 # Grafana for All
 Grafana Dashboard using metrics from: Prometheus, Tuya Exporter, Infinity, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
 
-Grafana Version: 9.5.2 Enterprise
-
 ![image](https://github.com/luizbizzio/Grafana-for-all/assets/73234672/ff767a86-b51c-4cbd-a68c-649ed24c0572)
 
+## Setup
 
-Prometheus: (Data Source)
+### Grafana
+* Download page: https://grafana.com/grafana/download (Used 9.5.2)
+* Docs: https://grafana.com/docs/grafana/latest/setup-grafana/installation/
+
+### Prometheus 
+* Download page: https://prometheus.io/download/ (Used 2.44.0)
+
+### GO
+* Download page: https://go.dev/dl/ (Used 1.20.4)\
+Only to build exporter, then can uninstall
+
+### HWiNFO
+* Download page: https://www.hwinfo.com/download/ \
+You will need to enable: \
+"Show Sensors on Startup", "Minimize Main Window on Startup", "Minimize Sensors on Startup", "Minimize Sensors Instead of Closing" and "Auto Start"
+
+### Tuya Exporter
+```
+git clone https://github.com/rkosegi/tuya-smartplug-exporter
+cd tuya-smartplug-exporter
+```
+Add your device info in ./config.yaml
+```
+go build
+```
+Tutorial to get device info: https://github.com/iRayanKhan/homebridge-tuya/wiki/Get-Local-Keys-for-your-devices \
+localhost:9999/metrics
+
+### PromDapter
+* Repository: https://github.com/kallex/PromDapter \
+Default Port: 10445 
+
+### Windows Exporter
+### Solis Inverter JSON API
+### Node Exporter
+
+
+
+## Docs
+You can find useful information about several components and answers to frequently asked questions in each repository. If you think that there is something missing, you are invited to submit a pull request to the grafana-for-all repository.
+
+## Repositories
+
+* Prometheus:
 https://github.com/prometheus/prometheus
 
-Inifinity: (Data Source)
+* Inifinity:
 https://github.com/yesoreyeram/grafana-infinity-datasource
 
-Tuya Exporter: (Smart Plug)
+* Tuya Exporter: (Smart Plug)
 https://github.com/rkosegi/tuya-smartplug-exporter
   
-PromDapter: (HWiNFO)
+* PromDapter: (HWiNFO)
 https://github.com/kallex/PromDapter
   
-Windows Exporter: (Windows Info)
+* Windows Exporter: (Windows Info)
 https://github.com/prometheus-community/windows_exporter
   
-Solis inverter JSON API: (Photovoltaic system with Solis inverter)
+* Solis inverter JSON API: (Photovoltaic system with Solis inverter)
 https://github.com/fss/solis-inverter
   
-Node Exporter: (Used on PiKVM - IP-KVM on Raspberry Pi)
+* Node Exporter: (Used on PiKVM - IP-KVM on Raspberry Pi)
 https://github.com/prometheus/node_exporter
   
-Open Meteo JSON API: (Weather)
-https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.64&daily=sunrise,sunset,uv_index_max,uv_index_clear_sky_max&current_weather=true&forecast_days=1&timezone=America%2FSao_Paulo
+* Open Meteo JSON API: (Weather)
+https://github.com/open-meteo/open-meteo
