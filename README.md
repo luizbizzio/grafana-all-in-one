@@ -24,7 +24,7 @@ https://github.com/kallex/PromDapter
 * Windows Exporter: (Windows Info)
 https://github.com/prometheus-community/windows_exporter
   
-* Solis inverter JSON API: (Photovoltaic system with Solis inverter)
+* Solis Inverter JSON API: (Photovoltaic system with Solis inverter)
 https://github.com/fss/solis-inverter
   
 * Node Exporter: (Used on PiKVM - IP-KVM on Raspberry Pi)
