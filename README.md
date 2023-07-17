@@ -3,7 +3,6 @@ Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promda
 
 ## Dashboard
 ![image](dashboard.png)
-* Dashboard on Grafana: https://grafana.com/grafana/dashboards/18852-vega/
 
 ## Docs
 You can find useful information about several components and answers to frequently asked questions in each repository. If you think that there is something missing, you are invited to submit a pull request to the grafana-for-all repository.
@@ -28,4 +27,7 @@ https://github.com/prometheus/node_exporter
 * Open Meteo JSON API (Weather):
 https://github.com/open-meteo/open-meteo
 
+
 #### *_Recommended for Servers, Desktop or Personal Computer monitoring._*
+
+_Dashboard on Github: https://github.com/luizbizzio/grafana-for-all/_
