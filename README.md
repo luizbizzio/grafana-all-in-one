@@ -8,28 +8,24 @@ Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promda
 ## Docs
 You can find useful information about several components and answers to frequently asked questions in each repository. If you think that there is something missing, you are invited to submit a pull request to the grafana-for-all repository.
 
-## Repositories
+### What you will need:
 
-* Prometheus:
-https://github.com/prometheus/prometheus
-
-* Inifinity:
-https://github.com/yesoreyeram/grafana-infinity-datasource
-
-* Tuya Exporter: (Smart Plug)
+* Tuya Exporter (Smart Plug):
 https://github.com/rkosegi/tuya-smartplug-exporter
-  
-* PromDapter: (HWiNFO)
+
+* PromDapter (HWiNFO):
 https://github.com/kallex/PromDapter
-  
-* Windows Exporter: (Windows Info)
+
+* Windows Exporter (Windows Info): 
 https://github.com/prometheus-community/windows_exporter
-  
-* Solis Inverter JSON API: (Photovoltaic system with Solis inverter)
+
+* Solis Inverter JSON API (Solis Ginlong Inverter): 
 https://github.com/fss/solis-inverter
-  
-* Node Exporter: (Used on PiKVM - IP-KVM on Raspberry Pi)
+
+* Node Exporter * Node Exporter (Used on PiKVM):
 https://github.com/prometheus/node_exporter
-  
-* Open Meteo JSON API: (Weather)
+
+* Open Meteo JSON API (Weather):
 https://github.com/open-meteo/open-meteo
+
+#### *_Recommended for Servers, Desktop or Personal Computer monitoring._*
