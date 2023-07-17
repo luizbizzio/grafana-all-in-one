@@ -1,8 +1,11 @@
 # Grafana for All
 Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promdapter, Windows Exporter, Solis Inverter Exporter, Node Exporter, Open Meteo API
 
-## Dashboard
+## Dashboard Rev 1.0
 ![image](dashboard.png)
+
+## Dashboard Rev 4.0
+![image](dashboard2.png)
 
 ## Docs
 You can find useful information about several components and answers to frequently asked questions in each repository. If you think that there is something missing, you are invited to submit a pull request to the grafana-for-all repository.
