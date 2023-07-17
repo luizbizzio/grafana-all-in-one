@@ -30,4 +30,4 @@ https://github.com/open-meteo/open-meteo
 
 #### *_Recommended for Servers, Desktop or Personal Computer monitoring._*
 
-_Dashboard on GrafanaLabs: https://grafana.com/grafana/dashboards/18852-vega/_
+_Dashboard on GrafanaLabs: https://grafana.com/grafana/dashboards/18852-grafana-for-all/_
