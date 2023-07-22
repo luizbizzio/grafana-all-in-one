@@ -4,7 +4,7 @@ Grafana Dashboard using metrics from Prometheus, Infinity, Tuya Exporter, Promda
 ## Dashboard Rev 1.0
 ![image](dashboard.png)
 
-## Dashboard Rev 9.0
+## Dashboard Rev 10.0
 ![image](dashboard2.png)
 
 ## Docs
