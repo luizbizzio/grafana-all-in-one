@@ -6,6 +6,9 @@ Welcome to **Grafana All in One**—your all-encompassing monitoring solution de
     <img src="dashboard.png" alt="Grafana Dashboard" width="100%" />
 </div>
 
+<div align="center">
+<b>Grafana Version:</b> 11.1.3
+</div>
 
 ## Overview 🚀
 
