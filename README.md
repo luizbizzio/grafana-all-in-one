@@ -40,14 +40,14 @@ To set up this monitoring solution:
 3. **Import the Dashboard**: Import the [Grafana dashboard](https://grafana.com/grafana/dashboards/18852) by following these steps:
    - Go to your Grafana instance.
    - Navigate to `Dashboards` > `New` > `Import`.
-   - Enter the dashboard ID `18852` and click `Load`.
+   - Enter the dashboard ID `21674` and click `Load`.
    - Assign your data sources to the appropriate panels and save the dashboard.
 
 4. **Start Monitoring**: Access your Grafana dashboard and start monitoring your systems in real-time.
 
 ## Dashboard 📈
 
-Check out the Grafana dashboard here: [All in one](https://grafana.com/grafana/dashboards/18852).
+Check out the Grafana dashboard here: [All in one](https://grafana.com/grafana/dashboards/21674).
 
 This dashboard is designed to provide a comprehensive view of all your systems, seamlessly integrating data from various exporters.
 
