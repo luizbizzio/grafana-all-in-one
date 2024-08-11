@@ -1,10 +1,11 @@
-<div align="center">
-    <img src="dashboard.png" alt="Grafana Dashboard" width="80%" />
-</div>
-
 # Grafana - All in One 📊
 
 Welcome to **Grafana All in One**—your all-encompassing monitoring solution designed to integrate various data sources and exporters into a single Grafana dashboard. This project provides a broad view of multiple systems, from Raspberry Pi to solar inverters and smart plugs.
+
+<div align="center">
+    <img src="dashboard.png" alt="Grafana Dashboard" width="100%" />
+</div>
+
 
 ## Overview 🚀
 
