@@ -2501,7 +2501,7 @@
               "viz": false
             },
             "insertNulls": false,
-            "lineInterpolation": "linear",
+            "lineInterpolation": "smooth",
             "lineStyle": {
               "fill": "solid"
             },
@@ -2914,7 +2914,7 @@
       },
       "hideTimeOverride": false,
       "id": 97,
-      "interval": "3h",
+      "interval": "1h",
       "options": {
         "legend": {
           "calcs": [
@@ -3872,7 +3872,7 @@
               "tooltip": false,
               "viz": false
             },
-            "insertNulls": false,
+            "insertNulls": 3600000,
             "lineInterpolation": "smooth",
             "lineWidth": 1,
             "pointSize": 5,
@@ -3880,7 +3880,7 @@
               "type": "linear"
             },
             "showPoints": "never",
-            "spanNulls": 300000,
+            "spanNulls": 3600000,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -4097,6 +4097,7 @@
           "useBackend": false
         }
       ],
+      "timeFrom": "now/d",
       "title": "Energy Generation",
       "type": "timeseries"
     },
@@ -4219,7 +4220,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#299c46"
+                "color": "#299c46",
+                "value": null
               },
               {
                 "color": "yellow",
@@ -4519,7 +4521,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               }
             ]
           },
@@ -4679,7 +4682,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -4863,7 +4867,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#ff30ba"
+                "color": "#ff30ba",
+                "value": null
               },
               {
                 "color": "#4230ff",
@@ -5160,7 +5165,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "#30fffc"
+                "color": "#30fffc",
+                "value": null
               },
               {
                 "color": "#4230ff",
@@ -5384,6 +5390,6 @@
   "timezone": "browser",
   "title": "All in one",
   "uid": "MdWKkr-4z",
-  "version": 14,
+  "version": 16,
   "weekStart": ""
 }
