@@ -7,7 +7,7 @@ Welcome to **Grafana All in One**—your all-encompassing monitoring solution de
 </div>
 
 <div align="center">
-<b>Grafana Version:</b> 11.1.3
+<b>Grafana Version:</b> 11.3.0
 </div>
 
 ## Overview 🚀
