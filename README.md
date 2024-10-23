@@ -51,6 +51,6 @@ Check out the Grafana dashboard here: [All in one](https://grafana.com/grafana/d
 
 This dashboard is designed to provide a comprehensive view of all your systems, seamlessly integrating data from various exporters.
 
-## License
+## License 📄
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
