@@ -1,6 +1,6 @@
 # Grafana - All in One 📊 
 
-Welcome to **Grafana All in One**—your all-encompassing monitoring solution designed to integrate various data sources and exporters into a single Grafana dashboard. This project provides a broad view of multiple systems, from Raspberry Pi to solar inverters and smart plugs.
+Welcome to **Grafana All in One**, your all-encompassing monitoring solution designed to integrate various data sources and exporters into a single Grafana dashboard. This project provides a broad view of multiple systems, from Raspberry Pi to solar inverters and smart plugs.
 
 <div align="center">
     <img src="dashboard.png" alt="Grafana Dashboard" width="100%" />
@@ -53,6 +53,4 @@ This dashboard is designed to provide a comprehensive view of all your systems, 
 
 ## License 📄
 
-This project is licensed under the [PolyForm Noncommercial License 1.0.0](./LICENSE).
-
-Commercial use, resale, and paid services are not permitted.
+This project is licensed under the [Apache 2.0 License](./LICENSE).
